@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Raleway&display=swap");
+
+:root {
+  --dark: #30343f;
+  --white: #fff;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+nav,
+footer {
+  background-color: var(--dark);
+  color: var(--white);
+}
